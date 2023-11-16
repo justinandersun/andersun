@@ -26,10 +26,16 @@ header {
 }
 
 .nav-link {
-  padding: 0 1em;
+  margin: 0 1em;
   font-size: 1.2em;
   text-decoration: none; 
   font-family: 'Poppins-Bold', sans-serif;
+  transition: 200ms;
+}
+
+.nav-link:hover {
+  border-bottom: 5px solid var(--eucalyptus);
+  transition: 200ms;
 }
 
 .heading {
@@ -53,7 +59,7 @@ p > a, li > a {
 }
 
 p > a:hover, li > a:hover {
-  border-bottom: 6px solid var(--eucalyptus);
+  border-bottom: 5px solid var(--eucalyptus);
   transition: 200ms;
 }
 

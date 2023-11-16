@@ -41,6 +41,16 @@ const AboutPage = () => {
         <li>I prefer playing sports to watching sports</li>
         <li>I can unicycle and juggle, but I'm more skilled at the former</li>
       </ul>
+      <p>Find me on</p>
+      <ul>
+        <li>Substack <a href="https://andersun.substack.com/" target="_blank" rel="noreferrer">@andersun</a></li>
+        <li>Twitter <a href="https://twitter.com/justinandersun" target="_blank" rel="noreferrer">@justinandersun</a></li>
+        <li>Medium <a href="https://medium.com/justinandersun" target="_blank" rel="noreferrer">@justinandersun</a></li>
+        <li>GitHub <a href="https://github.com/justinandersun/" target="_blank" rel="noreferrer">@justinandersun</a></li>
+        <li>LinkedIn <a href="https://www.linkedin.com/in/justinandersun/" target="_blank" rel="noreferrer">@justinandersun</a></li>
+        <li>YouTube <a href="https://www.youtube.com/user/justinandersun" target="_blank" rel="noreferrer">@justinandersun</a></li>
+        <li>Instagram <a href="https://www.instagram.com/justinandersun/" target="_blank" rel="noreferrer">@justinandersun</a></li>
+      </ul>
     </Layout>
   )
 }

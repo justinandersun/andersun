@@ -5,7 +5,7 @@ import Seo from '../components/seo'
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="Blog">
       {
         data.allMdx.nodes.map((node) => (
           <article key={node.id}>
@@ -39,6 +39,6 @@ export const query = graphql`
   }
 `
 
-export const Head = () => <Seo title="My Blog Posts" />
+export const Head = () => <Seo title="Blog" />
 
 export default BlogPage
