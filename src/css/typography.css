@@ -1,25 +1,16 @@
 @font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins.ttf");
-}
-@font-face {
-  font-family: "Josefin";
-  src: url("../fonts/JosefinSans.ttf");
-}
-@font-face {
-  font-family: "Crimson";
-  src: url("../fonts/CrimsonPro.ttf");
-}
-@font-face {
-  font-family: "California";
-  src: url("../fonts/California-Rad.otf");
-}
-@font-face {
   font-family: "Monthoers";
   src: url("../fonts/Monthoers.otf");
 }
 @font-face {
-  font-family: "Chinese";
-  src: url("../fonts/chinese-rocks.otf");
+  font-family: "Vollkorn";
+  src: url("../fonts/Vollkorn.ttf");
 }
-
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}

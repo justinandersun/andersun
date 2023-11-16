@@ -3,7 +3,6 @@
 .container {
   margin: 0 auto;
   max-width: 600px;
-  font-family: sans-serif;
 }
 
 header {
@@ -30,7 +29,7 @@ header {
   padding: 0 1em;
   font-size: 1.2em;
   text-decoration: none; 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins-Bold', sans-serif;
 }
 
 .heading {
@@ -38,8 +37,9 @@ header {
 }
 
 p, ul, ol {
-  font-size: 1.4em;
+  font-size: 1.3em;
   line-height: 1.6em;
+  font-weight: normal;
 }
 
 p {
