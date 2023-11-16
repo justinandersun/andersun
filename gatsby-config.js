@@ -1,17 +1,18 @@
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
   siteMetadata: {
-    title: `Justin Andersun`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: "Justin Andersun",
+    siteUrl: `https://andersun.com`
   },
-  plugins: ["gatsby-plugin-google-gtag", "gatsby-plugin-mdx", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "pages",
-      "path": "./src/pages/"
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      }
     },
-    __key: "pages"
-  }]
+    "gatsby-plugin-mdx",
+  ],
 };
