@@ -14,7 +14,7 @@ const BlogPage = ({ data }) => {
                 {node.frontmatter.title}
               </Link>
             </h2>
-            <p>Posted: {node.frontmatter.date}</p>
+            <p>{node.frontmatter.date}</p>
             <p>{node.excerpt}</p>
           </article>
         ))
@@ -28,7 +28,7 @@ export const query = graphql`
     allMdx(sort: { frontmatter: { date: DESC }}) {
       nodes {
         frontmatter {
-          date(formatString: "MMMM D, YYYY")
+          date(formatString: "DD MMMM YYYY")
           title
           slug
         }

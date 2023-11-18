@@ -14,17 +14,17 @@ const NowPage = () => {
         <li>Climbing the 50 <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a> (I've summitted 44)</li>
         <li>Practicing non-dualistic meditation</li>
       </ul>
-      <p>Thus far in 2023, I have</p>
-      <ul>
-        <li>Skied a half-dozen mountains in the Cascades</li>
-        <li>Snorkeled between two tectonic plates in Iceland</li>
-        <li>Launched <a href="https://model.garden/" target="_blank" rel="noreferrer">Model Garden</a>, a repository of mental models</li>
-        <li>Climbed (but did not summit) Mount Whitney</li>
-        <li>Published "<a href="https://www.quillkeeperspress.com/the-aerial-perspective-literary-journal/1-2-2nd-quarter-2023" target="_blank" rel="noreferrer">Lemon-Lime Lady</a>," a story about sparkling water</li>
-        <li>Summitted Granite Peak, Montana's highpoint</li>
-        <li>Summitted Katahdin, Maine's highpoint</li>
-      </ul>
-      <p>In 2023, I began reading with breakfast. Thus far I've read</p>
+      {/* <p>Thus far in 2023, I have</p> */}
+      {/* <ul> */}
+      {/*   <li>Skied a half-dozen mountains in the Cascades</li> */}
+      {/*   <li>Snorkeled between two tectonic plates in Iceland</li> */}
+      {/*   <li>Launched <a href="https://model.garden/" target="_blank" rel="noreferrer">Model Garden</a>, a repository of mental models</li> */}
+      {/*   <li>Climbed (but did not summit) Mount Whitney</li> */}
+      {/*   <li>Published "<a href="https://www.quillkeeperspress.com/the-aerial-perspective-literary-journal/1-2-2nd-quarter-2023" target="_blank" rel="noreferrer">Lemon-Lime Lady</a>," a story about sparkling water</li> */}
+      {/*   <li>Summitted Granite Peak, Montana's highpoint</li> */}
+      {/*   <li>Summitted Katahdin, Maine's highpoint</li> */}
+      {/* </ul> */}
+      <p>Thus far in 2023, I've read</p>
       <ol>
         <li><i>Cat's Cradle</i> by Kurt Vonnegut</li>
         <li><i>The Joy Luck Club</i> by Amy Tan</li>

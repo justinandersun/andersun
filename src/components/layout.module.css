@@ -22,7 +22,7 @@ header {
 .nav-links {
   text-align: center;
   margin: 1em auto;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
 .nav-link {
@@ -34,12 +34,18 @@ header {
 }
 
 .nav-link:hover {
-  border-bottom: 5px solid var(--eucalyptus);
+  box-shadow: rgb(68,215,168) 0px -5px 0px inset;
   transition: 200ms;
 }
 
 .heading {
   padding: 1em 0;
+}
+
+h2 {
+  font-family: 'Poppins-Bold', sans-serif;
+  font-size: 2em;
+  padding-top: 1em;
 }
 
 p, ul, ol {
@@ -54,12 +60,12 @@ p {
 
 p > a, li > a {
   text-decoration: none;
-  border-bottom: 3px solid var(--eucalyptus);
+  box-shadow: rgb(68,215,168) 0px -4px 0px inset;
   transition: 200ms;
 }
 
 p > a:hover, li > a:hover {
-  border-bottom: 5px solid var(--eucalyptus);
+  box-shadow: rgb(68,215,168) 0px -7px 0px inset;
   transition: 200ms;
 }
 
