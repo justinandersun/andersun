@@ -5,25 +5,16 @@ import Seo from '../components/seo'
 const NowPage = () => {
   return (
     <Layout pageTitle="Now">
+      <h2>Doing</h2>
       <p>As of November 2023, I am</p>
       <ul>
-        <li>30 years old</li>
-        <li>Living in Seattle, Washington</li>
+        <li>Living in Seattle</li>
         <li>Building identity verification products at Mastercard</li>
         <li>Writing <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a>, a newsletter about making things. I publish fortnightly (every other Tuesday)</li>
-        <li>Climbing the 50 <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a> (I've summitted 44)</li>
+        <li>Climbing the <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a> (I've summitted 44 of 50)</li>
         <li>Practicing non-dualistic meditation</li>
       </ul>
-      {/* <p>Thus far in 2023, I have</p> */}
-      {/* <ul> */}
-      {/*   <li>Skied a half-dozen mountains in the Cascades</li> */}
-      {/*   <li>Snorkeled between two tectonic plates in Iceland</li> */}
-      {/*   <li>Launched <a href="https://model.garden/" target="_blank" rel="noreferrer">Model Garden</a>, a repository of mental models</li> */}
-      {/*   <li>Climbed (but did not summit) Mount Whitney</li> */}
-      {/*   <li>Published "<a href="https://www.quillkeeperspress.com/the-aerial-perspective-literary-journal/1-2-2nd-quarter-2023" target="_blank" rel="noreferrer">Lemon-Lime Lady</a>," a story about sparkling water</li> */}
-      {/*   <li>Summitted Granite Peak, Montana's highpoint</li> */}
-      {/*   <li>Summitted Katahdin, Maine's highpoint</li> */}
-      {/* </ul> */}
+      <h2>Reading</h2>
       <p>Thus far in 2023, I've read</p>
       <ol>
         <li><i>Cat's Cradle</i> by Kurt Vonnegut</li>
@@ -41,6 +32,7 @@ const NowPage = () => {
         <li><i>Writing Tools</i> by Roy Peter</li>
         <li><i>A Swim in a Pond in the Rain</i> by George Saunders</li>
         <li><i>This is Your Mind on Plants</i> by Michael Pollan</li>
+        <li><i>Liberation Day</i> by George Saunders</li>
       </ol>
       <p>This is a <a href="https://nownownow.com/about" target="_blank" rel="noreferrer">now page</a>, and you can create one too.</p>
     </Layout>

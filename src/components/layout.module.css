@@ -49,6 +49,7 @@ h2 {
 }
 
 p, ul, ol {
+  font-family: 'Vollkorn', serif;
   font-size: 1.3em;
   line-height: 1.6em;
   font-weight: normal;
@@ -58,13 +59,13 @@ p {
   padding-top: 1em;
 }
 
-p > a, li > a {
+p > a, li > a, h2 > a {
   text-decoration: none;
   box-shadow: rgb(68,215,168) 0px -4px 0px inset;
   transition: 200ms;
 }
 
-p > a:hover, li > a:hover {
+p > a:hover, li > a:hover, h2 > a:hover {
   box-shadow: rgb(68,215,168) 0px -7px 0px inset;
   transition: 200ms;
 }

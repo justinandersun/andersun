@@ -1,0 +1,21 @@
+.date {
+  font-family: 'Poppins-Light', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+.title {
+  font-family: 'Poppins-Bold', sans-serif;
+  padding-top: 0.2em;
+}
+
+.title > a {
+  box-shadow: none;
+}
+
+.excerpt {
+  margin-bottom: 2em;
+  padding-top: 0.5em;
+}

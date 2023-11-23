@@ -1,12 +1,14 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import * as blog from '../components/blog.module.css'
 import Seo from '../components/seo'
 
 const BlogPost = ({ data, children }) => {
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <p>{data.mdx.frontmatter.date}</p>
+      <p className={blog.date}>{data.mdx.frontmatter.date}</p>
+      <h2 className={blog.title}>{data.mdx.frontmatter.title}</h2>
       {children}
     </Layout>
   )
@@ -17,7 +19,7 @@ export const query = graphql`
     mdx(id: {eq: $id}) {
       frontmatter {
         title
-        date(formatString: "MMMM D, YYYY")
+        date(formatString: "DD MMMM YYYY")
       }
     }
   }

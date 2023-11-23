@@ -18,17 +18,9 @@ const IndexPage = ({ data }) => {
           </article>
         ))
       }
-
-      <h2>Most Popular Articles</h2>
-      <p><Link to="/garden">The Garden</Link></p>
-      <p><Link to="/garden">The Garden</Link></p>
-      <p><Link to="/garden">The Garden</Link></p>
-
-      <h2>The Garden</h2>
-      <p>Feeling adventurous? Take a stroll through <Link to="/garden">The Garden</Link> to explore my collection of notes, observations, and emerging ideas.</p>
-
+      
       <h2>Contact</h2>
-      <p>If you'd like to chat, send an email to `justin` at this domain.</p>
+      <p>If you'd like to chat, send an email to `hello` at this domain.</p>
     </Layout>
   )
 }
