@@ -8,13 +8,13 @@ const IndexPage = ({ data }) => {
     <Layout pageTitle="Home">
       <h2>Hi, I'm Justin</h2>
       <p>Thanks for visiting my website!</p>
-      <p>I build products and write fiction. To learn more, you can read <Link to="/about">about me</Link>, see what I'm doing <Link to="/now">now</Link>, or browse my <Link to="/blog">blog</Link>.</p>
+      <p>I build tech products and write fiction. To learn more, you can read <Link to="/about">about me</Link>, see what I'm doing <Link to="/now">now</Link>, or browse my <Link to="/blog">blog</Link>.</p>
 
       <h2>Latest Articles</h2>
       {
         data.allMdx.nodes.map((node) => (
           <article key={node.id}>
-            <p><Link to={`/../${node.frontmatter.slug}`}>{node.frontmatter.title}</Link> ({node.frontmatter.date})</p>
+            <p><Link to={`/../${node.frontmatter.slug}`}>{node.frontmatter.title}</Link></p>
           </article>
         ))
       }

@@ -10,7 +10,7 @@ const NowPage = () => {
       <ul>
         <li>Living in Seattle</li>
         <li>Building identity verification products at Mastercard</li>
-        <li>Writing <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a>, a newsletter about making things. I publish fortnightly (every other Tuesday)</li>
+        <li>Writing <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a>, a newsletter about making things</li>
         <li>Climbing the <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a> (I've summitted 44 of 50)</li>
         <li>Practicing non-dualistic meditation</li>
       </ul>
