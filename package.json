@@ -2,7 +2,7 @@
   "name": "justin-andersun",
   "version": "1.0.0",
   "private": true,
-  "description": "justin-andersun",
+  "description": "Justin Andersun",
   "author": "Justin Anderson",
   "keywords": [
     "gatsby"
@@ -17,6 +17,8 @@
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
     "gatsby": "^5.12.3",
+    "gatsby-plugin-google-gtag": "^5.12.3",
+    "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-image": "^3.12.0",
     "gatsby-plugin-mdx": "^5.12.0",
     "gatsby-plugin-sharp": "^5.12.0",
