@@ -19,3 +19,8 @@
   margin-bottom: 2em;
   padding-top: 0.5em;
 }
+
+img {
+  max-width: 100%;
+  margin: 0.25em auto;
+}
