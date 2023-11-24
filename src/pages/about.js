@@ -8,9 +8,9 @@ const AboutPage = () => {
       <h2>About me</h2>
       <p>I'm a product manager who specializes in data science to solve complex problems for people.</p>
       
-      <p>I write short stories, mostly speculative fiction, like "<a href="https://issuu.com/bluemesareview/docs/blue_mesa_review_issue_45?e=27483296/92099934" target="_blank" rel="noreferrer">The Time Donor</a>" and "<a href="https://www.quillkeeperspress.com/the-aerial-perspective-literary-journal/1-2-2nd-quarter-2023" target="_blank" rel="noreferrer">The Lemon-Lime Lady</a>."</p>
+      <p>I write speculative fiction, like "<a href="https://issuu.com/bluemesareview/docs/blue_mesa_review_issue_45?e=27483296/92099934" target="_blank" rel="noreferrer">The Time Donor</a>" and "<a href="https://www.quillkeeperspress.com/the-aerial-perspective-literary-journal/1-2-2nd-quarter-2023" target="_blank" rel="noreferrer">The Lemon-Lime Lady</a>."</p>
       
-      <p>I make websites, mostly informative tools about my interests, like <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">Highpoint Guide</a>, <a href="https://model.garden/" target="_blank" rel="noreferrer">Model Garden</a>, and <a href="https://bodyweight.fit/" target="_blank" rel="noreferrer">Bodyweight Fit</a>.</p>
+      <p>I make informative web tools about my interests, like <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">Highpoint Guide</a>, <a href="https://model.garden/" target="_blank" rel="noreferrer">Model Garden</a>, and <a href="https://bodyweight.fit/" target="_blank" rel="noreferrer">Bodyweight Fit</a>.</p>
       
       {/* <p>I am a partner, brother, son, cousin, grandson, friend, nephew, and citizen.</p> */}
       
