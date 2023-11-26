@@ -76,6 +76,28 @@ p > a:hover, li > a:hover, h2 > a:hover {
   transition: 200ms;
 }
 
+table {
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  font-family: 'Poppins', sans-serif;
+  margin: 1em 0;
+  font-size: 1em;
+}
+  th {
+    font-family: 'Poppins', sans-serif;
+    background: var(--darkgray);
+    color: #fff;
+    text-align: left;
+  }
+
+  td {
+    font-family: 'Vollkorn', serif;
+  }
+  td, th {
+    border: 1px solid var(--darkgray);
+    padding: 0.5em;
+  }
+
 footer {
   text-align: center;
   margin: 1em 0;
