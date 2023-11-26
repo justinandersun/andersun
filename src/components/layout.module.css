@@ -83,6 +83,7 @@ table {
   margin: 1em 0;
   font-size: 1em;
 }
+
   th {
     font-family: 'Poppins', sans-serif;
     background: var(--darkgray);
@@ -93,6 +94,7 @@ table {
   td {
     font-family: 'Vollkorn', serif;
   }
+
   td, th {
     border: 1px solid var(--darkgray);
     padding: 0.5em;
