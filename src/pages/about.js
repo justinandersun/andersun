@@ -10,15 +10,13 @@ const AboutPage = () => {
       
       <p>I write speculative fiction, like "<a href="https://issuu.com/bluemesareview/docs/blue_mesa_review_issue_45?e=27483296/92099934" target="_blank" rel="noreferrer">The Time Donor</a>" and "<a href="https://www.quillkeeperspress.com/the-aerial-perspective-literary-journal/1-2-2nd-quarter-2023" target="_blank" rel="noreferrer">The Lemon-Lime Lady</a>."</p>
       
-      <p>I make informative web tools about my interests, like <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">Highpoint Guide</a>, <a href="https://model.garden/" target="_blank" rel="noreferrer">Model Garden</a>, and <a href="https://bodyweight.fit/" target="_blank" rel="noreferrer">Bodyweight Fit</a>.</p>
-      
-      {/* <p>I am a partner, brother, son, cousin, grandson, friend, nephew, and citizen.</p> */}
-      
+      <p>I make informative web tools, like <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">Highpoint Guide</a>, <a href="https://model.garden/" target="_blank" rel="noreferrer">Model Garden</a>, and <a href="https://bodyweight.fit/" target="_blank" rel="noreferrer">Bodyweight Fit</a>.</p>
+            
       <p>I enjoy outdoor adventures, especially in the mountains, and have a goal to summit the highest point in all 50 United States.</p>
       
-      <p>I originate from Michigan and still bear the markings of a Midwesterner: polite, nasally, with a tendency to discuss the weather.</p>
+      <p>I'm from Michigan and still bear the markings of a Midwesterner: polite, nasally, with a tendency to discuss the weather.</p>
       
-      <p>I'm 5'9" with a medium build and have no tattoos, piercings, or interesting hair, so I'm generic-looking and probably remind you of someone else.</p>
+      <p>I'm 5'9" with a medium build and have no tattoos, piercings, or interesting hair, and probably remind you of someone else.</p>
       
       <p>Among the Big Five personality traits, I am</p>
       <ul>

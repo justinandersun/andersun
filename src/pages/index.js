@@ -26,11 +26,15 @@ const IndexPage = ({ data }) => {
 }
 
 export const query = graphql`
-  query {
-    allMdx(sort: { frontmatter: { date: DESC }}, limit: 3) {
+  query MyQuery {
+    allMdx(
+      sort: {frontmatter: {date: DESC}}
+      limit: 3
+      filter: {frontmatter: {type: {eq: "article"}}}
+    ) {
       nodes {
         frontmatter {
-          date(formatString: "DD MMMM YYYY")
+          date(formatString: "DD MMM YYYY")
           title
           slug
         }
