@@ -9,14 +9,28 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    // Blog Directory
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: `blog`,
-        path: `${__dirname}/blog`,
+        path: `${__dirname}/src/blog`,
       }
     },
-    "gatsby-plugin-mdx",
+    // Images
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1000,
+            },
+          },
+        ],
+      },
+    },
     // HTML Attributes
     {
       resolve: 'gatsby-plugin-html-attributes',

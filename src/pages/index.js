@@ -20,7 +20,7 @@ const IndexPage = ({ data }) => {
       }
       
       <h2>Contact</h2>
-      <p>If you'd like to chat, send an email to `hello` at this domain.</p>
+      <p>If you'd like to chat, send a message to <b>hello@andersun.com</b>.</p>
     </Layout>
   )
 }
