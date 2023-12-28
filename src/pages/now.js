@@ -6,7 +6,7 @@ const NowPage = () => {
   return (
     <Layout pageTitle="Now">
       <h2>Doing</h2>
-      <p>As of November 2023, I am</p>
+      <p>As of December 2023, I am</p>
       <ul>
         <li>Living in Seattle</li>
         <li>Building identity verification products at Mastercard</li>
@@ -33,6 +33,7 @@ const NowPage = () => {
         <li><i>A Swim in a Pond in the Rain</i> by George Saunders</li>
         <li><i>This is Your Mind on Plants</i> by Michael Pollan</li>
         <li><i>Liberation Day</i> by George Saunders</li>
+        <li><i>The Big Sleep</i> by Raymond Chandler</li>
       </ol>
       <p>This is a <a href="https://nownownow.com/about" target="_blank" rel="noreferrer">now page</a>, and you can create one too.</p>
     </Layout>
