@@ -19,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
         {children}
       </main>
       <footer>
-        <p>Copyright &copy; 2023 Justin Andersun</p>
+        <p>Copyright &copy; 2024 Justin Andersun</p>
       </footer>
     </div>
   )
