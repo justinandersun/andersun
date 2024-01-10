@@ -6,7 +6,7 @@ const NowPage = () => {
   return (
     <Layout pageTitle="Now">
       {/* <h2>Doing</h2> */}
-      <p>As of January 2023, I</p>
+      <p>As of January 2024, I</p>
       <ul>
         <li>Live in Seattle</li>
         <li>Build identity products at Mastercard</li>
