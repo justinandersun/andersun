@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Justin Andersun",
     description: "The personal blog of Justin Andersun, product manager and fiction writer.",
-    siteUrl: `https://www.andersun.com`,
+    siteUrl: `https://www.andersun.com/`,
     tags: "product manager, speculative fiction writer, indie maker, highpointer",
     twitterUsername: "@justinandersun",
   },
