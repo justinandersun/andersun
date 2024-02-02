@@ -10,7 +10,7 @@ const NowPage = () => {
       <ul>
         <li>Live in Seattle</li>
         <li>Build identity products at Mastercard</li>
-        <li>Publish <a href="https://productfield.guide/" target="_blank" rel="noreferrer">Product Field Guide</a>, a weekly newsletter about product management</li>
+        <li>Publish <a href="https://www.productfield.guide/" target="_blank" rel="noreferrer">Product Field Guide</a>, a weekly newsletter about product management</li>
         <li>Have climbed 44 of the 50 <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a></li>
         <li>Write short, mystical fiction</li>
       </ul>
