@@ -6,13 +6,13 @@ const NowPage = () => {
   return (
     <Layout pageTitle="Now">
       {/* <h2>Doing</h2> */}
-      <p>As of January 2024, I</p>
+      <p>As of June 2024, I</p>
       <ul>
-        <li>Live in Seattle</li>
+        <li>Live in Minnesota</li>
         <li>Build identity products at Mastercard</li>
-        <li>Publish <a href="https://www.productfield.guide/" target="_blank" rel="noreferrer">Product Field Guide</a>, a weekly newsletter about product management</li>
-        <li>Have climbed 44 of the 50 <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a></li>
-        <li>Write short, mystical fiction</li>
+        {/* <li>Publish <a href="https://www.productfield.guide/" target="_blank" rel="noreferrer">Product Field Guide</a>, a weekly newsletter about product management</li> */}
+        <li>Have climbed 46 of the 50 <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a></li>
+        <li>Write speculative fiction stories</li>
       </ul>
       {/* <h2>Reading</h2> */}
       {/* <p>Thus far in 2023, I've read</p> */}
