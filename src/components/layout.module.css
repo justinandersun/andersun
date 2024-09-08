@@ -34,7 +34,7 @@ header {
 }
 
 .nav-link:hover {
-  box-shadow: var(--mint) 0px -9px 0px inset;
+  box-shadow: var(--mint) 0px -6px 0px inset;
   transition: 200ms;
 }
 
@@ -72,7 +72,7 @@ p > a, li > a, h2 > a {
 }
 
 p > a:hover, li > a:hover, h2 > a:hover {
-  box-shadow: var(--mint) 0px -9px 0px inset;
+  box-shadow: var(--mint) 0px -6px 0px inset;
   transition: 200ms;
 }
 
