@@ -5,12 +5,11 @@ import Seo from '../components/seo'
 const NowPage = () => {
   return (
     <Layout pageTitle="Now">
-      {/* <h2>Doing</h2> */}
-      <p>As of September 2024, I am</p>
+      <p>As of October 2024, I am:</p>
       <ul>
         <li>Living in Minnesota</li>
         <li>Leading a product team at a credit card company</li>
-        <li>Climbing the <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a> (I've summitted 46 of 50)</li>
+        <li>Climbing the <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a> (I've summitted 48 of 50)</li>
         <li>Writing speculative fiction stories</li>
         <li>Reading literature and philosophy from the Western canon</li>
       </ul>

@@ -6,27 +6,25 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About">
       <h2>About me</h2>
-      <p>I am a husband, brother, son, grandson, friend, cousin, nephew, product manager, writer, and indie maker - in that order.</p>
+      <p>I am a husband, brother, son, grandson, friend, cousin, nephew, product manager, writer, and maker - in that order.</p>
 
       <p>I build products that prevent identity fraud.</p>
       
-      <p>I write speculative fiction</p>
+      <p>I write speculative fiction:</p>
       <ul>
         <li><a href="https://www.grimandgilded.com/justin-anderson" target="_blank" rel="noreferrer">Chimera & Company</a> (Grim & Gilded, 2024)</li>
         <li><a href="https://www.quillkeeperspress.com/the-aerial-perspective-literary-journal/1-2-2nd-quarter-2023" target="_blank" rel="noreferrer">The Lemon-Lime Lady</a> (Quillkeepers Press, 2023)</li>
         <li><a href="https://issuu.com/bluemesareview/docs/blue_mesa_review_issue_45?e=27483296/92099934" target="_blank" rel="noreferrer">The Time Donor</a> (Blue Mesa Review, 2022)</li>
       </ul>
       
-      <p>I make informative web tools</p>
+      <p>I make informative web tools:</p>
       <ul>
         <li><a href="https://highpoint.guide/" target="_blank" rel="noreferrer">Highpoint Guide</a></li>
         <li><a href="https://productfield.guide/" target="_blank" rel="noreferrer">Product Field Guide</a></li>
         <li><a href="https://bodyweight.fit/" target="_blank" rel="noreferrer">Bodyweight Fit</a></li>   
       </ul>
-
-      <p>I enjoy outdoor adventures and want to summit the highest point in all 50 United States.</p>
             
-      <p>Among the Big Five personality traits, I am</p>
+      <p>Among the Big Five personality traits, I am:</p>
       <ul>
         <li>Slightly more introverted than extroverted</li>
         <li>Highly conscientious and obsessively organized</li>
@@ -35,11 +33,12 @@ const AboutPage = () => {
         <li>Moderately open to new experiences</li>
       </ul>
       
-      <p>Some other things about me</p>
+      <p>Some other things about me:</p>
       <ul>
         <li>I love long, meandering walks and conversations</li>
         <li>I wear shoes even after they get holes in them</li>
         <li>I laugh easily (and often uncontrollably)</li>
+        <li>I enjoy sports like hiking, biking, climbing, and skiing</li>
         <li>I donate blood twice per year</li>
         <li>I am Catholic</li>
         <li>I am from Michigan and a proud Wolverine</li>
@@ -47,7 +46,7 @@ const AboutPage = () => {
         <li>I film <a href="https://www.youtube.com/user/justinandersun" target="_blank" rel="noreferrer">one-second daily videos</a></li>
         <li>I can unicycle and juggle but am better at the former</li>
       </ul>
-      <p>Find me on <a href="https://x.com/justinandersun" target="_blank" rel="noreferrer">Twitter/X</a>, <a href="https://github.com/justinandersun/" target="_blank" rel="noreferrer">GitHub</a>, and <a href="https://www.linkedin.com/in/justinandersun/" target="_blank" rel="noreferrer">LinkedIn</a>.</p>
+      <p>Find me on <a href="https://x.com/justinandersun" target="_blank" rel="noreferrer">Twitter</a>, <a href="https://github.com/justinandersun/" target="_blank" rel="noreferrer">GitHub</a>, and <a href="https://www.linkedin.com/in/justinandersun/" target="_blank" rel="noreferrer">LinkedIn</a>.</p>
     </Layout>
   )
 }
