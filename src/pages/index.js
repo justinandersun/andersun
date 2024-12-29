@@ -21,6 +21,11 @@ const IndexPage = ({ data }) => {
       
       <h2>Contact</h2>
       <p>If you'd like to chat, send a message to <b>hello@andersun.com</b>.</p>
+    
+      <h2>Subscribe</h2>
+      <p>Sign up for my free monthly newsletter!</p>
+      <iframe src="https://turtlespace.blog/embed" width="480" height="320" frameborder="0" scrolling="no"></iframe>
+
     </Layout>
   )
 }
