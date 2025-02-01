@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
@@ -10,19 +11,9 @@ const AboutPage = () => {
 
       <p>I build products that prevent identity fraud.</p>
       
-      <p>I write speculative fiction:</p>
-      <ul>
-        <li><a href="https://www.grimandgilded.com/justin-anderson" target="_blank" rel="noreferrer">Chimera & Company</a> (Grim & Gilded, 2024)</li>
-        <li><a href="https://www.quillkeeperspress.com/the-aerial-perspective-literary-journal/1-2-2nd-quarter-2023" target="_blank" rel="noreferrer">The Lemon-Lime Lady</a> (Quillkeepers Press, 2023)</li>
-        <li><a href="https://issuu.com/bluemesareview/docs/blue_mesa_review_issue_45?e=27483296/92099934" target="_blank" rel="noreferrer">The Time Donor</a> (Blue Mesa Review, 2022)</li>
-      </ul>
+      <p>I write speculative <Link to="/fiction">fiction stories</Link>.</p>
       
-      <p>I make informative web tools:</p>
-      <ul>
-        <li><a href="https://highpoint.guide/" target="_blank" rel="noreferrer">Highpoint Guide</a></li>
-        <li><a href="https://productfield.guide/" target="_blank" rel="noreferrer">Product Field Guide</a></li>
-        <li><a href="https://bodyweight.fit/" target="_blank" rel="noreferrer">Bodyweight Fit</a></li>   
-      </ul>
+      <p>I make informative <Link to="/projects">web tools</Link>.</p>
             
       <p>Among the Big Five personality traits, I am:</p>
       <ul>
@@ -46,7 +37,13 @@ const AboutPage = () => {
         <li>I film <a href="https://www.youtube.com/user/justinandersun" target="_blank" rel="noreferrer">one-second daily videos</a>.</li>
         <li>I can unicycle and juggle but am better at the former.</li>
       </ul>
-      <p>Find me on <a href="https://x.com/justinandersun" target="_blank" rel="noreferrer">X</a>, <a href="https://github.com/justinandersun/" target="_blank" rel="noreferrer">GitHub</a>, and <a href="https://www.linkedin.com/in/justinandersun/" target="_blank" rel="noreferrer">LinkedIn</a>.</p>
+      <p>Find me on:</p>
+      <ul>
+        <li><a href="https://substack.com/@andersun" target="_blank" rel="noreferrer">Substack</a></li>
+        <li><a href="https://github.com/justinandersun/" target="_blank" rel="noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/justinandersun/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        <li><a href="https://www.goodreads.com/user/show/23702091-justin-andersun" target="_blank" rel="noreferrer">Goodreads</a></li>
+      </ul>
     </Layout>
   )
 }

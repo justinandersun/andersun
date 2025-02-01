@@ -20,7 +20,21 @@
   padding-top: 0.5em;
 }
 
+.read > a {
+  text-decoration: none;
+  color: var(--blue);
+  font-weight: 800;
+}
+
 img {
   max-width: 100%;
   margin: 0.25em auto;
+}
+
+.feature {
+  margin-top: 0.5em;
+  border: 1px solid var(--charcoal);
+  padding: 0.5em 1.5em;
+  background: var(--paper);
+  box-shadow: 4px 4px 2px var(--charcoal);
 }

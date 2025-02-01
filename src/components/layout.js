@@ -5,21 +5,25 @@ import * as layout from './layout.module.css'
 const Layout = ({ pageTitle, children }) => {
 
   return (
-    <div className={layout.container}>
+    <div className={layout.bigContainer}>
       <header>
-        <h2 className={layout.siteTitle}>Justin AndersUn</h2>
+        <h2 className={layout.siteTitle}>Justin Andersun</h2>
         <nav className={layout.navLinks}>
           <Link to="/" className={layout.navLink}>Home</Link>
           <Link to="/blog/" className={layout.navLink}>Blog</Link>
-          <Link to="/now/" className={layout.navLink}>Now</Link>
+          <Link to="/fiction/" className={layout.navLink}>Fiction</Link>
+          <Link to="/projects/" className={layout.navLink}>Projects</Link>
           <Link to="/about/" className={layout.navLink}>About</Link>
+          <Link to="/now/" className={layout.navLink}>Now</Link>
         </nav>
       </header>
-      <main>
-        {children}
-      </main>
+      <div className={layout.container}>
+        <main>
+          {children}
+        </main>
+      </div>
       <footer>
-        <p>&copy; 2024 Justin Anderson</p>
+        <p>&copy; 2025 Justin Anderson</p>
       </footer>
     </div>
   )

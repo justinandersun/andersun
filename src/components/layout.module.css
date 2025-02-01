@@ -1,5 +1,9 @@
 @import "../css/main.css";
 
+.big-container {
+  border-top: solid 0.5em var(--charcoal);
+}
+
 .container {
   margin: 0 auto;
   max-width: 600px;
@@ -14,8 +18,6 @@ header {
   font-size: 3em;
   font-weight: 500;
   padding: 0em 0 0 0;
-  letter-spacing: 4px;
-  font-family: 'Monthoers', sans-serif;
   text-align: center;
 }
 
@@ -34,7 +36,7 @@ header {
 }
 
 .nav-link:hover {
-  box-shadow: var(--mint) 0px -6px 0px inset;
+  box-shadow: var(--blue) 0px -6px 0px inset;
   transition: 200ms;
 }
 
@@ -66,13 +68,16 @@ p {
 }
 
 p > a, li > a, h2 > a {
-  text-decoration: none;
-  box-shadow: var(--mint) 0px -3px 0px 0px inset;
+  text-decoration-line: underline;
+  text-decoration-color: var(--blue);
+  text-decoration-thickness: 10%;
+  text-decoration-style: wavy;
   transition: 200ms;
 }
 
 p > a:hover, li > a:hover, h2 > a:hover {
-  box-shadow: var(--mint) 0px -6px 0px inset;
+  text-decoration-style: solid;
+  text-decoration-thickness: 20%;
   transition: 200ms;
 }
 
@@ -86,7 +91,7 @@ table {
 
   th {
     font-family: 'Poppins', sans-serif;
-    background: var(--darkgray);
+    background: var(--charcoal);
     color: #fff;
     text-align: left;
   }
@@ -96,19 +101,21 @@ table {
   }
 
   td, th {
-    border: 1px solid var(--darkgray);
+    border: 1px solid var(--charcoal);
     padding: 0.5em;
   }
 
 footer {
   text-align: center;
-  margin: 1em 0;
-  padding: 1.5em 0;
+  margin: 1em 0 0 0;
+  padding: 2em 0 3em 0;
+  background: var(--charcoal);
 }
 
 footer p {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
+  color: #fff;
 }
 
 @media screen and (max-width: 600px) {

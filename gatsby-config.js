@@ -3,8 +3,7 @@ module.exports = {
     title: "Justin Andersun",
     description: "The personal blog of Justin Andersun, product manager and fiction writer.",
     siteUrl: `https://www.andersun.com/`,
-    tags: "product manager, speculative fiction writer, indie maker, highpointer",
-    twitterUsername: "@justinandersun",
+    tags: "product management, fiction writing, indie making, highpointing",
   },
   plugins: [
     "gatsby-plugin-image",
