@@ -6,7 +6,7 @@ const FictionPage = () => {
   return (
     <Layout pageTitle="Fiction">
       <h2>Fiction</h2>
-      <p>My stories take place in base reality but mystical and fantasy elements blur the edges.</p>
+      <p>I label my work as <i>speculative fiction</i>, which is a broad and somewhat ambiguous term. In short, my stories occur in base reality but mystical elements blur the edges.</p>
 
       <p>Short Stories:</p>
       <ul>

@@ -9,11 +9,11 @@ const Layout = ({ pageTitle, children }) => {
       <header>
         <h2 className={layout.siteTitle}>Justin Andersun</h2>
         <nav className={layout.navLinks}>
-          <Link to="/" className={layout.navLink}>Home</Link>
-          <Link to="/blog/" className={layout.navLink}>Blog</Link>
-          <Link to="/fiction/" className={layout.navLink}>Fiction</Link>
-          <Link to="/projects/" className={layout.navLink}>Projects</Link>
-          <Link to="/about/" className={layout.navLink}>About</Link>
+          <Link to="/" className={layout.navLink}>Home</Link>●
+          <Link to="/blog/" className={layout.navLink}>Blog</Link>●
+          <Link to="/fiction/" className={layout.navLink}>Fiction</Link>●
+          <Link to="/projects/" className={layout.navLink}>Projects</Link>●
+          <Link to="/about/" className={layout.navLink}>About</Link>●
           <Link to="/now/" className={layout.navLink}>Now</Link>
         </nav>
       </header>
@@ -23,7 +23,7 @@ const Layout = ({ pageTitle, children }) => {
         </main>
       </div>
       <footer>
-        <p>&copy; 2025 Justin Anderson</p>
+        <p>&copy; 2025 Justin Andersun</p>
       </footer>
     </div>
   )
