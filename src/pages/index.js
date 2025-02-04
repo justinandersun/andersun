@@ -7,7 +7,7 @@ import Seo from '../components/seo'
 const IndexPage = ({ data }) => {
   return (
     <Layout pageTitle="Home">
-      <h2>Hi, I'm Justin</h2>
+      <h2>Hi there, I'm Justin</h2>
       <p>Thanks for visiting my website!</p>
       <p>I build tech <Link to="/projects">products</Link> and write <Link to="/fiction">fiction</Link>. You can learn more <Link to="/about">about</Link> me, see what I'm doing <Link to="/now">now</Link>, or read my <Link to="/blog">blog</Link>.</p>
 
@@ -26,10 +26,10 @@ const IndexPage = ({ data }) => {
       }
       
       <h2>Subscribe</h2>
-      <p>If you like what you read, sign up for my newsletter, <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a>. Each month, I publish a new essay about <i>slow ideas for fast times</i>.</p>
+      <p>Like what you read? Sign up for my newsletter, <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a>. Each month, I publish a new essay about <i>slow ideas for fast times</i>.</p>
 
       <h2>Contact</h2>
-      <p>I appreciate the async nature of email, and I try to respond to all messages (that aren't ads) within 24 hours. If you'd like to chat, I'd love to hear from you! Please reach out to <b>hello</b> at <b>this domain</b>.</p>
+      <p>I appreciate the async nature of email, and I try to respond to all messages (that aren't ads) within 24 hours. If you want to chat, I'd love to hear from you! Please reach out to <b>hello</b> at <b>this domain</b>.</p>
     
       
     </Layout>
