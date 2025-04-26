@@ -10,6 +10,7 @@ const FictionPage = () => {
 
       <p>Short Stories:</p>
       <ul>
+        <li><a href="https://poetschoice.in/product/lost-in-lust/" target="_blank" rel="noreferrer">Jackaloped</a>, <i>Free Spirit</i>, 2025</li>
         <li><a href="https://www.grimandgilded.com/justin-anderson" target="_blank" rel="noreferrer">Chimera & Company</a>, <i>Grim & Gilded</i>, 2024</li>
         <li><a href="https://www.quillkeeperspress.com/the-aerial-perspective-literary-journal/1-2-2nd-quarter-2023" target="_blank" rel="noreferrer">The Lemon-Lime Lady</a>, <i>Quillkeepers Press</i>, 2023</li>
         <li><a href="https://issuu.com/bluemesareview/docs/blue_mesa_review_issue_45?e=27483296/92099934" target="_blank" rel="noreferrer">The Time Donor</a>, <i>Blue Mesa Review</i>, 2022</li>

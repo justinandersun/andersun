@@ -6,21 +6,27 @@ const NowPage = () => {
   return (
     <Layout pageTitle="Now">
     <h2>What I'm doing now</h2>
-      <p>As of February 2025, I:</p>
+      <p>As of May 2025, I:</p>
       <ul>
-        <li>Am 31</li>
+        <li>Am 32</li>
         <li>Live in Minnesota</li>
         <li>Lead a product team at a credit card company</li>
-        <li>Publish essays about philosophy on <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a></li>
+        <li>Publish philosopicaly essays on <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a></li>
+        <li>Host <a href="https://www.meetup.com/inky-loons/" target="_blank" rel="noreferrer">The Inky Loons</a>, a writing group in Minneapolis</li>
         <li>Am writing a novel about the Underworld</li>
         <li>Have summitted 48 of the 50 <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a>. I have not yet climbed Gannett Peak in Wyoming and Denali in Alaska</li>
       </ul>
 
-      <p>This year, I have read (or am reading):</p>
+      <p>This year, I have read:</p>
       <ul>
         <li><i>The Great Gatsby</i> by F. Scott Fitzgerald</li>
         <li><i>Slow Productivity</i> by Cal Newport</li>
-        <li><i>Walden & Civil Disobedience</i> by Henry David Thoreau</li>
+        <li><i>Walden</i> by Henry David Thoreau</li>
+        <li><i>Circe</i> by Madeline Miller</li>
+        <li><i>If On A Winter's Night A Traveler</i> by Italo Calvino</li>
+        <li><i>Abundance</i> by Ezra Klein</li>
+        <li><i>A Short Stay in Hell</i> by Steven Peck</li>
+        <li><i>Into Thin Air</i> by Jon Krakauer</li>
       </ul>
 
       <p>This is a <a href="https://nownownow.com/about" target="_blank" rel="noreferrer">now page</a>, and you can create one too.</p>
