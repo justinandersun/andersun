@@ -70,8 +70,8 @@ p {
 p > a, li > a, h2 > a {
   text-decoration-line: underline;
   text-decoration-color: var(--blue);
-  text-decoration-thickness: 10%;
-  text-decoration-style: wavy;
+  text-decoration-thickness: 15%;
+  text-decoration-style: solid;
   transition: 200ms;
 }
 

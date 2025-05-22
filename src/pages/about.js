@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About">
       <h2>About me</h2>
-      <p>I am a husband, brother, son, grandson, friend, cousin, nephew, product manager, writer, and maker - in that order.</p>
+      <p>I am a husband, brother, son, grandson, friend, cousin, nephew, uncle, product manager, writer, and maker.</p>
 
       <p>I build products to combat identity fraud.</p>
       
@@ -27,7 +27,7 @@ const AboutPage = () => {
       <p>Some other things about me:</p>
       <ul>
         <li>I love long, meandering walks and conversations</li>
-        <li>I wear shoes even after they get holes in them</li>
+        <li>I wear shoes long after they get holes in them</li>
         <li>I laugh easily (and often uncontrollably)</li>
         <li>I enjoy hiking, biking, climbing, skiing, and camping</li>
         <li>I donate blood twice per year</li>
@@ -35,7 +35,7 @@ const AboutPage = () => {
         <li>I am from Michigan and a proud Wolverine</li>
         <li>I am a night owl who wishes to be a morning bird</li>
         <li>I film <a href="https://www.youtube.com/user/justinandersun" target="_blank" rel="noreferrer">one-second daily videos</a></li>
-        <li>I can unicycle and juggle but am better at the former</li>
+        <li>I can unicycle and juggle but can't do them at the same time</li>
       </ul>
       <p>Find me on <a href="https://substack.com/@andersun" target="_blank" rel="noreferrer">Substack</a>
         , <a href="https://github.com/justinandersun/" target="_blank" rel="noreferrer">GitHub</a>

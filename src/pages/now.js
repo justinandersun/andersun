@@ -12,11 +12,10 @@ const NowPage = () => {
         <li>Live in Minnesota</li>
         <li>Lead a product team at a credit card company</li>
         <li>Publish philosopicaly essays on <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a></li>
-        <li>Host <a href="https://www.meetup.com/inky-loons/" target="_blank" rel="noreferrer">The Inky Loons</a>, a writing group in Minneapolis</li>
+        <li>Host <a href="https://inkyloons.com" target="_blank" rel="noreferrer">The Inky Loons</a> writing group</li>
         <li>Am writing a novel about the Underworld</li>
         <li>Have summitted 48 of the 50 <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoints</a>. I have not yet climbed Gannett Peak in Wyoming and Denali in Alaska</li>
       </ul>
-
       <p>This year, I have read:</p>
       <ul>
         <li><i>The Great Gatsby</i> by F. Scott Fitzgerald</li>
@@ -27,8 +26,8 @@ const NowPage = () => {
         <li><i>Abundance</i> by Ezra Klein</li>
         <li><i>A Short Stay in Hell</i> by Steven Peck</li>
         <li><i>Into Thin Air</i> by Jon Krakauer</li>
+        <li><i>Watership Down</i> by Richard Adams</li>
       </ul>
-
       <p>This is a <a href="https://nownownow.com/about" target="_blank" rel="noreferrer">now page</a>, and you can create one too.</p>
     </Layout>
   )
