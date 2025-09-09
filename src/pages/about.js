@@ -7,28 +7,21 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About">
       <h2>About me</h2>
-      <p>I am a husband, brother, son, grandson, friend, cousin, nephew, uncle, product manager, writer, and maker.</p>
-
-      <p>I build products to combat identity fraud.</p>
-      
-      <p>I write speculative <Link to="/fiction">fiction stories</Link>.</p>
-      
-      <p>I make informative <Link to="/projects">web tools</Link>.</p>
+      <p>I am a husband, brother, son, grandson, friend, cousin, nephew, product manager, and writer.</p>
             
       <p>Among the Big Five personality traits, I am:</p>
       <ul>
         <li>More introverted than extroverted</li>
         <li>Highly conscientious and obsessively organized</li>
-        <li>Fairly agreeable (becoming less so with age)</li>
+        <li>Fairly agreeable</li>
         <li>Neurotic and moody</li>
-        <li>Thrill-seeking and open to new experiences</li>
+        <li>Moderately open to new experiences</li>
       </ul>
       
       <p>Some other things about me:</p>
       <ul>
         <li>I love long, meandering walks and conversations</li>
         <li>I wear shoes long after they get holes in them</li>
-        <li>I laugh easily (and often uncontrollably)</li>
         <li>I enjoy hiking, biking, climbing, skiing, and camping</li>
         <li>I donate blood twice per year</li>
         <li>I am Catholic</li>
