@@ -1,25 +1,34 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
-import * as blog from '../components/blog.module.css'
 import Seo from '../components/seo'
 
 const BlogPage = ({ data }) => {
+  const postsByYear = data.allMdx.nodes.reduce((acc, node) => {
+    const year = node.frontmatter.date.slice(-4)
+    if (!acc[year]) {
+      acc[year] = []
+    }
+    acc[year].push(node)
+    return acc
+  }, {})
+
+  const sortedYears = Object.keys(postsByYear).sort((a, b) => b - a)
+
   return (
     <Layout pageTitle="Blog">
-    {
-      data.allMdx.nodes.map((node) => (
-        <article key={node.id}>
-          <p className={blog.date}>{node.frontmatter.date}</p>
-          <h2 className={blog.title}>{node.frontmatter.title}</h2>
-          <p className={blog.excerpt}>{node.excerpt}
-            <span className={blog.read}>
-              <Link to={`/../${node.frontmatter.slug}`}> Read →</Link>
-            </span>
-          </p>
-        </article>
-      ))
-    }
+      {sortedYears.map((year) => (
+        <div key={year}>
+          <h3>{year}</h3>
+          <ul>
+            {postsByYear[year].map((node) => (
+              <li key={node.id}>
+                {node.frontmatter.date.slice(0, -5)}: <Link to={`/../${node.frontmatter.slug}`}>{node.frontmatter.title}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </Layout>
   )
 }

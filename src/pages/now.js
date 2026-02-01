@@ -10,8 +10,8 @@ const NowPage = () => {
       <ul>
         <li>Leading a product team at Mastercard</li>
         <li>Finishing the first draft of a novel about the Underworld</li>
-        <li>Learning archery</li>
         <li>Facilitating the <a href="https://www.inkyloons.com/" target="_blank" rel="noreferrer">Inky Loons</a> writing group in Minneapolis</li>
+        <li>Practicing archery</li>
         <li>Procrastinating my final <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoint</a>: Denali</li>
       </ul>
       <p>This is a <a href="https://nownownow.com/about" target="_blank" rel="noreferrer">now page</a>, and you can create one too.</p>
