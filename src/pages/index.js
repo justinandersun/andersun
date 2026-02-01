@@ -9,9 +9,9 @@ const IndexPage = ({ data }) => {
     <Layout pageTitle="Home">
       <h2>Hi there, I'm Justin</h2>
       <p>Thanks for visiting my website!</p>
-      <p>I build tech <Link to="/projects">products</Link> and write <Link to="/fiction">fiction</Link>. You can learn more <Link to="/about">about</Link> me, see what I'm doing <Link to="/now">now</Link>, or read my <Link to="/blog">blog</Link>.</p>
+      <p>I build tech <Link to="/projects">products</Link> and write <Link to="/fiction">fiction</Link>. You can learn more <Link to="/about">about</Link> me or see what I'm doing <Link to="/now">now</Link>.</p>
 
-      <p>Here's my latest post:</p>
+      <p>Here's my latest blogpost:</p>
       {
         data.allMdx.nodes.map((node) => (
           <article className={blog.feature} key={node.id}>
@@ -26,10 +26,10 @@ const IndexPage = ({ data }) => {
       }
       
       <h2>Subscribe</h2>
-      <p>If you like what you read, sign up for my newsletter, <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a>. Each month, I publish a new essay about <i>slow ideas for fast times</i>.</p>
+      <p>If you like what you read, sign up for <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a>, where I publish essays about <i>slow ideas for fast times</i>.</p>
 
       <h2>Contact</h2>
-      <p>I appreciate the async nature of email, and I try to respond to messages within 24 hours. Email <b>hello</b> at <b>andersun</b> dot <b>com</b>. I'd love to hear from you!</p>
+      <p>I appreciate the async nature of email and try to respond to messages within 24 hours. Email <b>hello</b> at <b>andersun</b> dot <b>com</b>. I'd love to hear from you!</p>
     
       
     </Layout>

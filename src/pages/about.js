@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
@@ -7,33 +6,16 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About">
       <h2>About me</h2>
-      <p>I am a husband, brother, son, grandson, friend, cousin, nephew, product manager, and writer.</p>
-            
-      <p>Among the Big Five personality traits, I am:</p>
-      <ul>
-        <li>More introverted than extroverted</li>
-        <li>Highly conscientious and obsessively organized</li>
-        <li>Fairly agreeable</li>
-        <li>Neurotic and moody</li>
-        <li>Moderately open to new experiences</li>
-      </ul>
-      
-      <p>Some other things about me:</p>
-      <ul>
-        <li>I love long, meandering walks and conversations</li>
-        <li>I wear shoes long after they get holes in them</li>
-        <li>I enjoy hiking, biking, climbing, skiing, and camping</li>
-        <li>I donate blood twice per year</li>
-        <li>I am Catholic</li>
-        <li>I am from Michigan and a proud Wolverine</li>
-        <li>I am a night owl who wishes to be a morning bird</li>
-        <li>I film <a href="https://www.youtube.com/user/justinandersun" target="_blank" rel="noreferrer">one-second daily videos</a></li>
-        <li>I can unicycle and juggle but can't do them at the same time</li>
-      </ul>
+      <p>A few notes, for context:</p>
+      <p><b>Re: Work</b> — I build technology products, with a focus on machine learning and data-heavy systems. I'm interested in tools that encourage care and accountability.</p>
+      <p><b>Re: Disposition</b> — By most measures, I'm conscientious, neurotic, agreeable, and open to new experiences. I like long walks and conversations that meander late into the night.</p>
+      <p><b>Re: Roots</b> — I'm from Michigan (go blue!), a practicing Catholic, and a regular blood donor.</p>
+      <p><b>Re: Interests</b> — I write fiction and enjoy mountaineering. Once upon a time, I could ride a unicycle.</p>
+  
       <p>Find me on <a href="https://substack.com/@andersun" target="_blank" rel="noreferrer">Substack</a>
         , <a href="https://github.com/justinandersun/" target="_blank" rel="noreferrer">GitHub</a>
         , <a href="https://www.linkedin.com/in/justinandersun/" target="_blank" rel="noreferrer">LinkedIn</a>
-        , and <a href="https://www.goodreads.com/user/show/23702091-justin-andersun" target="_blank" rel="noreferrer">Goodreads</a>.
+        , <a href="https://www.youtube.com/user/justinandersun" target="_blank" rel="noreferrer">YouTube</a>, and <a href="https://www.goodreads.com/user/show/23702091-justin-andersun" target="_blank" rel="noreferrer">Goodreads</a>.
       </p>
     </Layout>
   )

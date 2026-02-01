@@ -23,7 +23,7 @@ const Layout = ({ pageTitle, children }) => {
         </main>
       </div>
       <footer>
-        <p>&copy; 2025 Justin Andersun</p>
+        <p>&copy; 2026 Justin Andersun</p>
       </footer>
     </div>
   )

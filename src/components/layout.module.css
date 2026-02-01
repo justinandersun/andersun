@@ -1,7 +1,7 @@
 @import "../css/main.css";
 
 .big-container {
-  border: solid 1em var(--charcoal);
+  border: solid 1em var(--blue);
 }
 
 .container {
@@ -68,17 +68,19 @@ p {
 }
 
 p > a, li > a, h2 > a {
-  text-decoration-line: underline;
-  text-decoration-color: var(--blue);
-  text-decoration-thickness: 15%;
-  text-decoration-style: solid;
-  transition: 200ms;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: var(--blue);
+  color: #fff;
+  border-radius: 0.2em;
+  padding: 0 0.2em;
+  transition: 250ms;
 }
 
 p > a:hover, li > a:hover, h2 > a:hover {
-  text-decoration-style: solid;
-  text-decoration-thickness: 20%;
-  transition: 200ms;
+  background-color: #fff;
+  color: var(--blue);
+  transition: 250ms;
 }
 
 table {
@@ -109,12 +111,13 @@ footer {
   text-align: center;
   margin: 3em 0 0 0;
   padding: 2em 0;
-  background: var(--charcoal);
+  background: var(--blue);
 }
 
 footer p {
   font-family: 'Poppins', sans-serif;
-  font-size: 1em;
+  font-weight: 500;
+  font-size: 1.1em;
   color: #fff;
 }
 
