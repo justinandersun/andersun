@@ -6,7 +6,7 @@ const ProjectPage = () => {
   return (
     <Layout pageTitle="Projects">
     <h2>Projects</h2>
-     <p>I make <i>informative web tools</i>. By this, I mean clean, ad-free websites that serve niche audiences.</p>
+     <p>I make clean, ad-free products that serve niche communities.</p>
 
       <p><a href="https://highpoint.guide/" target="_blank" rel="noreferrer">Highpoint Guide</a><br /><i>A manual for climbing the U.S. highpoints</i></p>
       <p><a href="https://productfield.guide/" target="_blank" rel="noreferrer">Product Field Guide</a><br /><i>Essays on product management</i></p>

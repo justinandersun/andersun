@@ -17,6 +17,7 @@ const BlogPage = ({ data }) => {
 
   return (
     <Layout pageTitle="Blog">
+      <h2>Blog</h2>
       {sortedYears.map((year) => (
         <div key={year}>
           <h3>{year}</h3>

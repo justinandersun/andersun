@@ -6,7 +6,7 @@ const FictionPage = () => {
   return (
     <Layout pageTitle="Fiction">
       <h2>Fiction</h2>
-      <p>I label my work as <i>magical realism</i>, which is a somewhat ambiguous term. In short, my stories occur in base reality but mystical elements blur the edges.</p>
+      <p>I label my work as <i>magical realism</i>, so my stories occur in base reality but mystical elements blur the edges.</p>
 
       <h3>Short Stories</h3>
       <p><a href="https://poetschoice.in/product/lost-in-lust/" target="_blank" rel="noreferrer">Jackaloped</a>, <i>Free Spirit</i>, 2025</p>
