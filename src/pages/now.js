@@ -6,11 +6,10 @@ const NowPage = () => {
   return (
     <Layout pageTitle="Now">
     <h2>Now</h2>
-      <p>As of March 2026, I am:</p>
+      <p>As of April 2026, I am:</p>
       <ul>
-        <li>Observing Exodus 90, a season of prayer and asceticism</li>
-        <li>Leading a product team at Mastercard</li>
-        <li>Learning archery</li>
+        <li>Building <a href="https://www.stu.tools/" target="_blank" rel="noreferrer">Stu</a>, an OS for your home</li>
+        <li><s>Leading a product team at Mastercard</s></li>
         <li>Writing the first draft of a novel about the Underworld</li>
         <li>Facilitating the <a href="https://www.inkyloons.com/" target="_blank" rel="noreferrer">Inky Loons</a> writing group in Minneapolis</li>
         <li>Procrastinating my final <a href="https://highpoint.guide/" target="_blank" rel="noreferrer">U.S. Highpoint</a>: Denali</li>
