@@ -8,7 +8,7 @@ const ProjectPage = () => {
     <h2>Projects</h2>
      <p>I make clean, ad-free products that help people solve problems and achieve their goals.</p>
 
-    <p><a href="https://stu.tools/" target="_blank" rel="noreferrer">Stu</a><br /><i>An OS for your home</i></p>
+    <p><a href="https://stu.tools/" target="_blank" rel="noreferrer">Stu</a><br /><i>A stewardship system for your home</i></p>
     <p><a href="https://highpoint.guide/" target="_blank" rel="noreferrer">Highpoint Guide</a><br /><i>A manual for climbing the U.S. highpoints</i></p>
     <p><a href="https://productfield.guide/" target="_blank" rel="noreferrer">Product Field Guide</a><br /><i>Essays on product management</i></p>
     <p><a href="https://bodyweight.fit/" target="_blank" rel="noreferrer">Bodyweight Fit</a><br /><i>A generator of bodyweight workout routines</i></p>
