@@ -1,36 +1,22 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
-import * as blog from '../components/blog.module.css'
+import * as letter from '../components/letter.module.css'
 import Seo from '../components/seo'
+import Email from '../components/email'
 
 const IndexPage = ({ data }) => {
+  const latest = data.allMdx.nodes[0]
   return (
     <Layout pageTitle="Home">
-      <h2>Hi there, I'm Justin</h2>
-      <p>Thanks for visiting my website!</p>
-      <p>I build <Link to="/projects">products</Link> and write <Link to="/fiction">fiction</Link>. You can learn more <Link to="/about">about</Link> me, see what I'm doing <Link to="/now">now</Link>, or read my latest essay:</p>
-      <br />
-      {
-        data.allMdx.nodes.map((node) => (
-          <article className={blog.feature} key={node.id}>
-            <p className={blog.date}>{node.frontmatter.date}</p>
-            <p className={blog.title}>{node.frontmatter.title}</p>
-            <p>{node.frontmatter.subtitle}</p>
-            <p className={blog.read}>
-              <Link to={`/../${node.frontmatter.slug}`}> Read →</Link>
-            </p>
-          </article>
-        ))
-      }
-      
-      <h2>Subscribe</h2>
-      <p>If you like what you read, sign up for <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a>, where I share <i>slow ideas for fast times</i>.</p>
-
-      <h2>Contact</h2>
-      <p>Send an email to <b>hello</b> at <b>andersun</b> dot <b>com</b>, and I'll try to respond within 48 hours. I'd love to hear from you!</p>
-    
-      
+      <p className={letter.salutation}>Dear Reader,</p>
+      <p>Welcome to my website, and thanks for visiting! I'm Justin, and I build <Link to="/projects/">software products</Link> and write <Link to="/fiction/">fiction</Link>. You can learn more <Link to="/about/">about me</Link> or see what I'm up to <Link to="/now/">now</Link>.</p>
+      <p>
+        {latest && <>My latest essay is <Link to={`/${latest.frontmatter.slug}`}>{latest.frontmatter.title}</Link>. </>}
+        If you like what you read, sign up for <a href="https://turtlespace.blog/" target="_blank" rel="noreferrer">Turtle's Pace</a>, where I post about once per month.
+      </p>
+      <p>If you'd like to write back, send an email to <Email />. I'd love to hear from you.</p>
+      <p className={letter.signoff}>Take care,<br />Justin</p>
     </Layout>
   )
 }
@@ -44,12 +30,9 @@ export const query = graphql`
     ) {
       nodes {
         frontmatter {
-          date(formatString: "DD MMM YYYY")
           title
           slug
-          subtitle
         }
-        id
       }
     }
   }

@@ -1,7 +1,7 @@
 @import "../css/main.css";
 
 .big-container {
-  border: solid 1em var(--blue);
+  border: solid 1em var(--accent);
 }
 
 .container {
@@ -10,34 +10,43 @@
 }
 
 header {
-  margin: 1em 0 0 0;
-  padding: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5em 1.5em;
+  max-width: 600px;
+  margin: 2em auto 1em;
 }
 
 .site-title {
-  font-size: 3em;
-  font-weight: 500;
-  padding: 0em 0 0 0;
-  text-align: center;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
 .nav-links {
-  text-align: center;
-  margin: 1em auto;
-  padding-bottom: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 .nav-link {
-  margin: 0 1em;
-  font-size: 1.2em;
-  text-decoration: none; 
-  font-family: 'Poppins-Bold', sans-serif;
-  transition: 200ms;
+  position: relative;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-.nav-link:hover {
-  box-shadow: var(--blue) 0px -6px 0px inset;
-  transition: 200ms;
+.active::after {
+  content: "";
+  position: absolute;
+  left: -3px;
+  right: -3px;
+  bottom: -0.55em;
+  height: 0.5em;
+  background: var(--accent);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 12' preserveAspectRatio='none'%3E%3Cpath d='M2 7 C 18 3, 34 9, 52 5 S 84 3, 98 6 M6 9 C 30 6, 62 10, 94 7' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 12' preserveAspectRatio='none'%3E%3Cpath d='M2 7 C 18 3, 34 9, 52 5 S 84 3, 98 6 M6 9 C 30 6, 62 10, 94 7' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
 }
 
 .heading {
@@ -45,19 +54,18 @@ header {
 }
 
 h2 {
-  font-family: 'Poppins-Bold', sans-serif;
+  font-weight: 700;
   font-size: 2em;
   padding-top: 1em;
 }
 
 h3 {
-  font-family: 'Poppins-Bold', sans-serif;
+  font-weight: 700;
   font-size: 1.5em;
   padding-top: 1em;
 }
 
 p, ul, ol {
-  font-family: 'Vollkorn', serif;
   font-size: 1.3em;
   line-height: 1.6em;
   font-weight: normal;
@@ -67,39 +75,33 @@ p {
   padding-top: 1em;
 }
 
-p > a, li > a, h2 > a {
-  text-decoration: none;
-  font-weight: 500;
-  background-color: var(--blue);
-  color: #fff;
-  border-radius: 0.2em;
-  padding: 0 0.2em;
-  transition: 250ms;
+a {
+  text-decoration: underline 2px var(--accent);
+  text-underline-offset: 2px;
 }
 
-p > a:hover, li > a:hover, h2 > a:hover {
-  background-color: #fff;
-  color: var(--blue);
-  transition: 250ms;
+a:hover {
+  color: var(--accent);
+}
+
+:global(.gatsby-resp-image-link) {
+  text-decoration: none;
 }
 
 table {
   border-spacing: 0.5rem;
   border-collapse: collapse;
-  font-family: 'Poppins', sans-serif;
   margin: 1em 0;
   font-size: 1em;
 }
 
   th {
-    font-family: 'Poppins', sans-serif;
     background: var(--charcoal);
     color: #fff;
     text-align: left;
   }
 
   td {
-    font-family: 'Vollkorn', serif;
   }
 
   td, th {
@@ -111,11 +113,10 @@ footer {
   text-align: center;
   margin: 3em 0 0 0;
   padding: 2em 0;
-  background: var(--blue);
+  background: var(--accent);
 }
 
 footer p {
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.1em;
   color: #fff;
@@ -123,17 +124,9 @@ footer p {
 
 @media screen and (max-width: 600px) {
 
-  .container {
-    margin: 0 5%;
-  }
-
-  .site-title {
-    font-size: 2em;
-  }
-
-  .nav-link {
-    margin: 0 0.5em;
-    font-size: 0.5em;
+  .container, header {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   h2 {

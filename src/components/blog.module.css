@@ -1,5 +1,4 @@
 .date {
-  font-family: 'Poppins-Light', sans-serif;
   text-transform: uppercase;
   margin: 0;
   font-size: 0.9em;
@@ -7,8 +6,20 @@
 }
 
 .title {
-  font-family: 'Poppins-Bold', sans-serif;
+  font-weight: 700;
   padding-top: 0.2em;
+}
+
+.postSubtitle {
+  font-style: italic;
+  color: var(--muted);
+  padding-top: 0.25em;
+}
+
+.closing {
+  margin-top: 2.5em;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--muted);
 }
 
 .title > a {
@@ -20,23 +31,57 @@
   padding-top: 0.5em;
 }
 
-.read > a {
-  text-decoration: none;
-  background-color: var(--blue);
-  color: #fff;
-  border-radius: 0.2em;
-  padding: 0 0.2em;
-}
-
 img {
   max-width: 100%;
   margin: 0.25em auto;
 }
 
-.feature {
-  margin-top: 0.5em;
-  border: 1px solid var(--charcoal);
-  padding: 0.5em 1.5em;
-  background: var(--paper);
-  box-shadow: 4px 4px 2px var(--charcoal);
+.start {
+  border: 3px solid var(--charcoal);
+  padding: 0.75em 1.25em;
+  margin-top: 1.5em;
+}
+
+.label {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.year {
+  padding-top: 1.5em;
+}
+
+.year summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  cursor: pointer;
+  list-style: none;
+}
+
+.year summary::-webkit-details-marker {
+  display: none;
+}
+
+.year summary::after {
+  content: "+";
+  margin-left: auto;
+  font-size: 1.3em;
+}
+
+.year[open] summary::after {
+  content: "−";
+}
+
+.yearName {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.count {
+  color: var(--muted);
 }

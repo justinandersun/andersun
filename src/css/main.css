@@ -12,8 +12,17 @@
   color: var(--charcoal);
 }
 
+html {
+  background: var(--paper);
+}
+
+body {
+  font-family: 'Vollkorn', Georgia, serif;
+}
+
 main {
   min-height: 100vh;
+  padding-top: 2em;
 }
 
 p { max-width: 60ch; margin: auto; }

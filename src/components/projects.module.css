@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em 1.5em;
+  margin-top: 2em;
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+}
+
+.thumb {
+  aspect-ratio: 4 / 3;
+  border: 3px solid var(--charcoal);
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.1em;
+  padding-top: 0.5em;
+}
+
+.card:hover .name {
+  color: var(--accent);
+}
+
+.blurb {
+  font-size: 1em;
+  padding-top: 0.25em;
+}
+
+.years {
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

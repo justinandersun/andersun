@@ -7,14 +7,13 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={layout.bigContainer}>
       <header>
-        <h2 className={layout.siteTitle}>Justin Andersun</h2>
+        <Link to="/" className={layout.siteTitle}>Justin Andersun</Link>
         <nav className={layout.navLinks}>
-          <Link to="/" className={layout.navLink}>Home</Link>●
-          <Link to="/blog/" className={layout.navLink}>Blog</Link>●
-          <Link to="/fiction/" className={layout.navLink}>Fiction</Link>●
-          <Link to="/projects/" className={layout.navLink}>Projects</Link>●
-          <Link to="/about/" className={layout.navLink}>About</Link>●
-          <Link to="/now/" className={layout.navLink}>Now</Link>
+          <Link to="/blog/" className={layout.navLink} activeClassName={layout.active}>Blog</Link>
+          <Link to="/projects/" className={layout.navLink} activeClassName={layout.active}>Projects</Link>
+          <Link to="/fiction/" className={layout.navLink} activeClassName={layout.active}>Fiction</Link>
+          <Link to="/about/" className={layout.navLink} activeClassName={layout.active}>About</Link>
+          <Link to="/now/" className={layout.navLink} activeClassName={layout.active}>Now</Link>
         </nav>
       </header>
       <div className={layout.container}>
@@ -23,7 +22,7 @@ const Layout = ({ pageTitle, children }) => {
         </main>
       </div>
       <footer>
-        <p>&copy; 2026 Justin Andersun</p>
+        <p>&copy; {new Date().getFullYear()} Justin Andersun</p>
       </footer>
     </div>
   )
