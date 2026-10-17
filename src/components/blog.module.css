@@ -1,4 +1,5 @@
 .date {
+  font-family: var(--sans);
   text-transform: uppercase;
   margin: 0;
   font-size: 0.9em;
@@ -11,15 +12,47 @@
 }
 
 .postSubtitle {
-  font-style: italic;
+  max-width: none;
+  margin: 0;
+  padding: 0.35em 0 1.25em;
+  border-bottom: 1px solid #e3e4e6;
+  font-size: 1.2em;
+  line-height: 1.4em;
   color: var(--muted);
-  padding-top: 0.25em;
+  opacity: 0.85;
 }
 
-.closing {
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
   margin-top: 2.5em;
   padding-top: 1.5em;
   border-top: 1px solid var(--muted);
+  font-family: var(--sans);
+}
+
+.older,
+.newer {
+  max-width: 45%;
+  font-weight: 600;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.newer {
+  margin-left: auto;
+  text-align: right;
+}
+
+.pagerLabel {
+  display: block;
+  margin-bottom: 0.3em;
+  font-size: 0.75em;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .title > a {
@@ -37,12 +70,13 @@ img {
 }
 
 .start {
-  border: 3px solid var(--charcoal);
+  border: 4px solid var(--charcoal);
   padding: 0.75em 1.25em;
   margin-top: 1.5em;
 }
 
 .label {
+  font-family: var(--sans);
   margin: 0;
   padding: 0;
   font-size: 0.9em;
@@ -78,10 +112,7 @@ img {
 }
 
 .yearName {
+  font-family: var(--sans);
   font-size: 1.3em;
   font-weight: 700;
-}
-
-.count {
-  color: var(--muted);
 }

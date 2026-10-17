@@ -30,6 +30,59 @@ module.exports = {
         ],
       },
     },
+    // RSS Feed
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMdx } }) =>
+              allMdx.nodes.map((node) => {
+                const url = new URL(`/${node.frontmatter.slug}/`, site.siteMetadata.siteUrl).href
+                return {
+                  title: node.frontmatter.title,
+                  description: node.frontmatter.subtitle || node.excerpt,
+                  date: node.frontmatter.date,
+                  url,
+                  guid: url,
+                }
+              }),
+            query: `
+              {
+                allMdx(
+                  sort: { frontmatter: { date: DESC } }
+                  filter: { frontmatter: { type: { eq: "article" } } }
+                ) {
+                  nodes {
+                    excerpt
+                    frontmatter {
+                      title
+                      subtitle
+                      slug
+                      date
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Justin Andersun",
+          },
+        ],
+      },
+    },
     // HTML Attributes
     {
       resolve: 'gatsby-plugin-html-attributes',

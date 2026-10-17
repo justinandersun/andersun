@@ -31,7 +31,7 @@ const BlogPage = ({ data }) => {
           {featured.map((node) => (
             <li className={page.row} key={node.id}>
               <div>
-                <Link to={`/${node.frontmatter.slug}`}>{node.frontmatter.title}</Link>
+                <Link to={`/${node.frontmatter.slug}`} className={page.title}>{node.frontmatter.title}</Link>
                 {node.frontmatter.subtitle && <span className={page.subtitle}>{node.frontmatter.subtitle}</span>}
               </div>
             </li>
@@ -42,13 +42,12 @@ const BlogPage = ({ data }) => {
         <details className={blog.year} key={year} open={i === 0}>
           <summary>
             <span className={blog.yearName}>{year}</span>
-            <span className={blog.count}>· {postsByYear[year].length} {postsByYear[year].length === 1 ? 'essay' : 'essays'}</span>
           </summary>
           <ul className={page.index}>
             {postsByYear[year].map((node) => (
               <li className={page.row} key={node.id}>
                 <div>
-                  <Link to={`/${node.frontmatter.slug}`}>{node.frontmatter.title}</Link>
+                  <Link to={`/${node.frontmatter.slug}`} className={page.title}>{node.frontmatter.title}</Link>
                   {node.frontmatter.subtitle && <span className={page.subtitle}>{node.frontmatter.subtitle}</span>}
                 </div>
                 <span className={page.rowDate}>{node.frontmatter.date.slice(0, -5)}</span>

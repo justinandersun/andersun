@@ -13,11 +13,17 @@
 }
 
 html {
-  background: var(--paper);
+  background: var(--accent);
 }
 
 body {
   font-family: 'Vollkorn', Georgia, serif;
+}
+
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 main {

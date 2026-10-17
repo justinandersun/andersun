@@ -16,9 +16,14 @@
   padding: 0.4em 0;
 }
 
+.title {
+  font-family: var(--sans);
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
 .subtitle {
   display: block;
-  font-style: italic;
   font-size: 0.85em;
   line-height: 1.4em;
   color: var(--muted);
@@ -26,16 +31,8 @@
 
 .rowDate {
   flex-shrink: 0;
+  font-family: var(--sans);
   font-size: 0.75em;
   color: var(--muted);
   white-space: nowrap;
-}
-
-.pill {
-  display: inline-block;
-  padding: 0.1em 0.6em;
-  border: 1px solid var(--charcoal);
-  border-radius: 999px;
-  font-size: 0.8em;
-  line-height: 1.4em;
 }

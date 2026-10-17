@@ -1,7 +1,45 @@
+.date {
+  max-width: none;
+  min-height: 1.6em;
+  padding: 0;
+  font-family: var(--sans);
+  font-size: 0.85em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+
 .salutation {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .signoff {
   padding-top: 1.5em;
+}
+
+.signature {
+  display: inline-block;
+  margin-top: 0.15em;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 1.35em;
+  line-height: 1;
+  text-transform: uppercase;
+  transform: rotate(-3deg);
+}
+
+.initial {
+  font-size: 1.4em;
+}
+
+.title {
+  display: inline-block;
+  min-height: 1.4em;
+  margin-top: 0.35em;
+  font-family: var(--sans);
+  font-size: 0.6em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
 }

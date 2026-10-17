@@ -19,7 +19,7 @@ const FictionPage = () => {
       <ul className={page.index}>
         <li className={page.row}>
           <div>
-            Frozen Furnace
+            <span className={page.title}>Frozen Furnace</span>
             <span className={page.subtitle}>Second draft in progress</span>
           </div>
         </li>
@@ -30,7 +30,7 @@ const FictionPage = () => {
         {stories.map((story) => (
           <li className={page.row} key={story.title}>
             <div>
-              <a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>
+              <a href={story.url} target="_blank" rel="noreferrer" className={page.title}>{story.title}</a>
               <span className={page.subtitle}>{story.publication}</span>
             </div>
             <span className={page.rowDate}>{story.year}</span>
